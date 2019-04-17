@@ -1,2 +1,2 @@
 # Handwritten_Digit_Detector
-A hand written digit detector with a UI input with the use of deep learning
+This project uses a basic neural network to predict handwritten digits and adds a basic GUI to demonstrate its power
