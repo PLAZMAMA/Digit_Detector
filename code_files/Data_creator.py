@@ -90,7 +90,7 @@ class Window(Frame):
         self.format_pic("pic_0.eps", file, file_len)
         
     def set_win(self):
-        self.master.title("Number Prediction")
+        self.master.title("Data Creator")
         self.master.geometry(f"{self.w}x{self.h}")
         self.pack(fill = BOTH, expand = 1) #makes sure that is adjusts to the window size
         predict_label = Label(self.master, text = "Folder") #creating the label that says "prediction"
