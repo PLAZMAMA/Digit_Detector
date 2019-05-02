@@ -16,7 +16,7 @@ class Window(Frame):
         self.points = []
         self.single_value = 3
 
-    def hori_crop(self, arr): #crops the acces vertical pixels
+    def hori_crop(self, arr): #crops the acces horizontal pixels
         h = []
         r = arr.shape[1]
         for array in arr:
