@@ -1,4 +1,4 @@
-from tkinter import * #the "*" means imoprt everythin
+from tkinter import * #the "*" means imoprt everything
 import os
 from tensorflow import keras
 from keras.models import load_model
